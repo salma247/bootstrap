@@ -97,12 +97,10 @@ footer .container p{
     color: rgb(235, 231, 231);
 }
 @media screen and (max-width: 1000px) {
-   
+    hr {
+        width: 80%;
+    }
     .container .col-lg-5 img {
         width: 300px;
-    }
-    .products .nav{
-        width: 90%;
-    
-    }
+    }  
 }
