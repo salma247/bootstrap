@@ -1,0 +1,108 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar a i {
+    font-size: 2rem;
+    color: white;
+    margin-right: 20px;
+    font: normal;
+}
+
+
+.navbar {
+    background: #211522;
+    background: -webkit-linear-gradient(left, #211522, #FFD2FF);
+    background: -moz-linear-gradient(left, #211522, #FFD2FF);
+    background: linear-gradient(to right, #211522, #FFD2FF);
+}
+
+ .btn {
+    background-color: #613659;
+    color: white;
+    border: 1px solid #211522;
+ }
+
+ .btn:hover {
+    background-color: #211522;
+    color: white;
+}
+
+.form-control:enabled {
+    border: 2px solid #613659 !important;
+}
+
+h1{
+    color: #211522;
+}
+
+hr {
+    width: 50%;
+    text-align: center;
+    height: 5px;
+    background: -webkit-linear-gradient(left, #C197D2, #fa75fa);
+    background: -moz-linear-gradient(left, #C197D2, #fa75fa);
+    background: linear-gradient(to right, #C197D2, #fa75fa);
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.products .nav{
+    width: 50%;
+    border-radius: 20px;
+    margin: 70px auto 10px auto;
+    border: 1px solid #C197D2;
+}
+.products .nav a{
+    color: #613659;
+    margin: 2px;
+}
+.products .nav a:hover{
+    border-radius: 20px;
+    background: -webkit-linear-gradient(left, #C197D2, #fa75fa);
+    background: -moz-linear-gradient(left, #C197D2, #fa75fa);
+    background: linear-gradient(to right, #C197D2, #fa75fa);
+    animation: fadeIn; 
+    animation-duration: 0.5s
+}
+.products .nav .active {
+    background: -webkit-linear-gradient(left, #C197D2, #fa75fa);
+    background: -moz-linear-gradient(left, #C197D2, #fa75fa);
+    background: linear-gradient(to right, #C197D2, #fa75fa);
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+}
+.products .tab-content img {
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin: 10px 0px;
+}
+.input-group-text{
+    background-color: #D3B1C2;
+}
+footer{
+    background-color: #613659;
+}
+footer .container{
+    color: white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    background-color: #cf6abd7c;
+}
+footer .container i{
+    font-size: 1.5em;
+}
+footer .container p{
+    color: rgb(235, 231, 231);
+}
+@media screen and (max-width: 1000px) {
+   
+    .container .col-lg-5 img {
+        width: 300px;
+    }
+    .products .nav{
+        width: 80%;
+    
+    }
+}
