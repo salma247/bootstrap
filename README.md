@@ -1,2 +1,2 @@
 # bootstrap
-https://salma247.github.io/task-2/
+https://salma247.github.io/bootstrap/
